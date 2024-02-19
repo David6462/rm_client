@@ -1,0 +1,79 @@
+/* Colores de marca */
+:root {
+    --brand-primary: #16a085;
+    --brand-secondary: #2ca59a;
+    --brand-accent: #f44336;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Botón de inicio de sesión */
+button[type="submit"] {
+    background-color: var(--brand-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--brand-secondary);
+}
+
+/* Botón de crear cuenta */
+button {
+    background-color: var(--brand-accent);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--brand-secondary);
+}
