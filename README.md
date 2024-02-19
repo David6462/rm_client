@@ -1,10 +1,12 @@
+# Rick and Morty Client
 
-Para transpilar y ejecutar el frontend
+Este proyecto es un cliente de ReactJS para visualizar datos de la serie de televisión "Rick and Morty".
 
-Se debe ejecutar primero
+## Instrucciones de ejecución
 
-    npm run webpack:dev
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-y luego
+1. Clona el repositorio desde GitHub:
 
-    npm run start:dev
+```bash
+git clone https://github.com/David6462/rm_client.git
